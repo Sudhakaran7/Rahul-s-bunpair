@@ -1,0 +1,47 @@
+Rahul is going to have tea, so he noticed that in a row there are N number of buns, so he wanted know how many pairs of buns have equal in size,
+where each bun have their own size which is denoted with a number, Find rahul to find how many bun are equal in size in that row.
+
+Input description:
+Size of buns in a array
+
+Output description:
+Number of pairs equal in size
+
+Sample input:
+1 1 1 1
+
+Sample output:
+6
+
+Explananation:
+pair (1,1) are equal, so count->1
+pair (1,1) are equal, so count->2
+pair (1,1) are equal, so count->3
+pair (1,1) are equal, so count->4
+pair (1,1) are equal, so count->5
+pair (1,1) are equal, so count->6
+so the answer is 6
+
+Sample input:
+1 2 3 1 1 3
+
+Sample output:
+4
+
+Explananation:
+pair (1,2) is not equal
+pair (1,3) is not equal
+pair (1,1) is equal so count->1
+pair (1,1) is equal so count->2
+pair (1,3) is not equal
+pair (2,3) is not equal
+pair (2,1) is not equal
+pair (2,1) is not equal
+pair (2,3) is not equal
+pair (3,1) is not equal
+pair (3,1) is not equal
+pair (3,3) is equal so count->3
+pair (1,1) is equal so count->4
+pair (1,3) is not equal
+pair (1,3) is not equal
+So the count is 4
